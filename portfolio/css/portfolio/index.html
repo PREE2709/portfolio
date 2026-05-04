@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Preetha P Portfolio</title>
+
+<!-- FONT -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<!-- ICONS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="./css/style.css"/>
+</head>
+
+<body>
+
+<header>
+    <h2>Preetha P</h2>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <i class="fa-solid fa-moon" onclick="toggleMode()" style="cursor:pointer;"></i>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+
+    <div class="hero-left">
+        <p class="intro">Hi, I'm</p>
+
+        <h1>Preetha <span>P</span></h1>
+
+        <h2>
+            I'm a <span id="typing"></span><span class="cursor">|</span>
+        </h2>
+
+        <p class="desc">
+            I build real-world web applications using Java, Spring Boot, React and MySQL.
+            Turning ideas into user-friendly solutions.
+        </p>
+
+        <div class="buttons">
+            <button class="btn-primary">View My Projects</button>
+
+            <a href="./images/Preetha_P_FullStack_Resume .pdf" download>
+                <button class="btn-outline">
+                    <i class="fa-solid fa-download"></i> Download Resume
+                </button>
+            </a>
+        </div>
+
+        <div class="social-icons">
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-solid fa-envelope"></i>
+        </div>
+    </div>
+
+    <div class="hero-right">
+        <img src="./images/your-photo.jpg" alt="profile">
+    </div>
+
+</section>
+
+<!-- ABOUT -->
+<section class="about-section" id="about">
+
+    <!-- LEFT SIDE -->
+    <div class="about-left">
+        <h2><i class="fa-solid fa-user"></i> About Me</h2>
+
+        <p>
+            Energetic and dedicated MCA graduate with a passion for full stack 
+            development and a strong foundation in Java, HTML, and web technologies. 
+            I enjoy solving problems, writing clean code and building intuitive user experiences. 
+            I am eager to work in a challenging environment and contribute to the success 
+            of an organization while continuously improving my skills.
+        </p>
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="about-right">
+        <h3>What Drives Me</h3>
+
+        <ul>
+            <li><i class="fa-solid fa-circle-check"></i> Love solving real-world problems with code</li>
+            <li><i class="fa-solid fa-circle-check"></i> Always learning new technologies</li>
+            <li><i class="fa-solid fa-circle-check"></i> Clean code and user experience focused</li>
+            <li><i class="fa-solid fa-circle-check"></i> Team player with good communication</li>
+        </ul>
+    </div>
+
+</section>
+
+<!-- SKILLS -->
+<section class="section" id="skills">
+    <h2 class="skills-title">
+        <i class="fa-solid fa-code"></i> Technical Skills
+    </h2>
+
+    <div class="skills-container">
+
+        <div class="skill-card">
+            <i class="fa-brands fa-html5 skill-icon" style="color:#ff5722;"></i>
+            <h3>Frontend</h3>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>React.js</li>
+            </ul>
+        </div>
+
+        <div class="skill-card">
+            <i class="fa-solid fa-leaf skill-icon" style="color:#22c55e;"></i>
+            <h3>Backend</h3>
+            <ul>
+                <li>Java</li>
+                <li>Spring Boot</li>
+            </ul>
+        </div>
+
+        <div class="skill-card">
+            <i class="fa-solid fa-database skill-icon" style="color:#3b82f6;"></i>
+            <h3>Database</h3>
+            <ul>
+                <li>MySQL</li>
+                <li>MongoDB</li>
+            </ul>
+        </div>
+
+        <div class="skill-card">
+            <i class="fa-brands fa-js skill-icon" style="color:#facc15;"></i>
+            <h3>Languages</h3>
+            <ul>
+                <li>Java</li>
+                <li>JavaScript</li>
+                <li>Python (Basic)</li>
+            </ul>
+        </div>
+
+        <div class="skill-card">
+            <i class="fa-brands fa-github skill-icon"></i>
+            <h3>Tools & Others</h3>
+            <ul>
+                <li>Git, GitHub</li>
+                <li>VS Code</li>
+                <li>Eclipse</li>
+            </ul>
+        </div>
+
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="projects-section" id="projects">
+
+    <h2 class="project-title">
+        <i class="fa-solid fa-folder"></i> Projects
+    </h2>
+
+    <div class="projects-container">
+
+        <!-- PROJECT 1 -->
+        <div class="project-card">
+
+            <img src="./images/ecomerece.jpg" class="project-img">
+
+            <div class="project-content">
+                <h3>
+                    E-Commerce Web Application 
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </h3>
+
+                <span class="tag">Full Stack Project</span>
+
+                <p>
+                    A responsive e-commerce platform with user authentication, 
+                    product listing, cart and order management.
+                </p>
+
+                <ul>
+                    <li>Built frontend using React, HTML, CSS</li>
+                    <li>Integrated backend using Spring Boot</li>
+                    <li>Used MySQL for database management</li>
+                    <li>Features: Login, Products, Cart, Order Summary</li>
+                </ul>
+
+                <div class="tech">
+                    <span>React</span>
+                    <span>Spring Boot</span>
+                    <span>MySQL</span>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- PROJECT 2 -->
+        <div class="project-card">
+
+            <img src="./images/gym.jpg" class="project-img">
+
+            <div class="project-content">
+                <h3>
+                    Gym Management System 
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </h3>
+
+                <span class="tag">Academic Project (MCA)</span>
+
+                <p>
+                    Android application to manage gym operations for members, trainers and staff.
+                </p>
+
+                <ul>
+                    <li>Built with Android Studio using Java & SQL</li>
+                    <li>Member registration & attendance</li>
+                    <li>Trainer scheduling & payment tracking</li>
+                    <li>Designed for easy mobile access</li>
+                </ul>
+
+                <div class="tech">
+                    <span>Java</span>
+                    <span>Android Studio</span>
+                    <span>SQL</span>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- CONTACT -->
+<section class="section contact" id="contact">
+    <h2><i class="fa-solid fa-envelope"></i> Contact Me</h2>
+<p style="margin-top:10px; color:#ccc;">
+    📧 preetha.pera@gmail.com
+
+</p>
+    
+
+    
+</section>
+
+<footer>
+    <p>© 2026 Preetha P</p>
+</footer>
+
+<!-- JAVASCRIPT -->
+<script src="./js/javascript.js">
+</script>
+
+</body>
+</html>
